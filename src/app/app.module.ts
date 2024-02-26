@@ -4,7 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './auth/login/login.component';
-import { RegistrerComponent } from './auth/registrer/registrer.component';
+
 import { NopagefoundComponent } from './pages/nopagefound/nopagefound.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component';
@@ -13,12 +13,13 @@ import { HeaderComponent } from './shared/header/header.component';
 import { ProgressComponent } from './pages/progress/progress.component';
 import { Chart1Component } from './pages/chart1/chart1.component';
 import { PagesComponent } from './pages/pages.component';
+import { RegisterComponent } from './auth/register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegistrerComponent,
+    RegisterComponent,
     NopagefoundComponent,
     DashboardComponent,
     BreadcrumbsComponent,
