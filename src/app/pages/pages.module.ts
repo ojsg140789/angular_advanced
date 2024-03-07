@@ -9,20 +9,23 @@ import { Chart1Component } from './chart1/chart1.component';
 import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { ComponentsModule } from '../components/components.module';
+import { AccountSettingComponent } from './account-setting/account-setting.component';
 
 @NgModule({
   declarations: [
     DashboardComponent,
     ProgressComponent,
     Chart1Component,
-    PagesComponent
+    PagesComponent,
+    AccountSettingComponent
   ],
   exports: [
     AppRoutingModule,
     DashboardComponent,
     ProgressComponent,
     Chart1Component,
-    PagesComponent
+    PagesComponent,
+    AccountSettingComponent
   ],
   imports: [ 
     AppRoutingModule,
