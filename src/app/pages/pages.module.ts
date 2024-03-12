@@ -10,6 +10,8 @@ import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { ComponentsModule } from '../components/components.module';
 import { AccountSettingComponent } from './account-setting/account-setting.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,10 @@ import { AccountSettingComponent } from './account-setting/account-setting.compo
     ProgressComponent,
     Chart1Component,
     PagesComponent,
-    AccountSettingComponent
+    AccountSettingComponent,
+    ProgressComponent,
+    PromisesComponent,
+    RxjsComponent
   ],
   exports: [
     AppRoutingModule,
@@ -25,7 +30,10 @@ import { AccountSettingComponent } from './account-setting/account-setting.compo
     ProgressComponent,
     Chart1Component,
     PagesComponent,
-    AccountSettingComponent
+    AccountSettingComponent,
+    ProgressComponent,
+    PromisesComponent,
+    RxjsComponent
   ],
   imports: [ 
     AppRoutingModule,
